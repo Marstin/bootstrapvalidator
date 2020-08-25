@@ -1,5 +1,3 @@
-This repository is for anyone who still use the BootstrapValidator.
+__迫于无奈看源码改bug__
 
-__It's no longer supported.__
-
-__Please upgrade to use [FormValidation](http://formvalidation.io).__
+__项目自用__
