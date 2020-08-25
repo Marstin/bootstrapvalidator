@@ -828,7 +828,7 @@ if (typeof jQuery === 'undefined') {
          * @returns {BootstrapValidator}
          */
         disableSubmitButtons: function(disabled) {
-            if (!disabled) {
+            if (!disabled && this.isValid()) {
                 this.$form.find(this.options.submitButtons).removeAttr('disabled');
             } else if (this.options.live !== 'disabled') {
                 // Don't disable if the live validating mode is disabled
